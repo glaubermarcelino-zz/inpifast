@@ -2,7 +2,8 @@
 #INPI FAST
 
 <h3 align="center">Desenvolvido para o Desafio INPI</h3>
-<h3 align="center">É um aplicativo com o intuito de sanar as maiores dores tanto do cliente (empreendedores) quando do fornecedor, através da coleta de dados e cruzamento de informações</h3>
+<h3 align="center">O DESAFIO</h3>
+<h3 align="center">Fomos desafiados a desenvolver tecnologias inovadoras para otimizar a prestação de serviços do INPI para a sociedade brasileira.</h3>
 
 <p align="center">
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/glaubermarcelino/inpifast">
