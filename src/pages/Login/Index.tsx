@@ -13,7 +13,6 @@ import {useNavigation} from '@react-navigation/native';
 
 import {withFormik} from 'formik';
 
-
 const Login = (props: any) => {
   const navigation = useNavigation();
   function handleNavigateToNewAccount() {
@@ -28,37 +27,42 @@ const Login = (props: any) => {
       <View style={styles.container}>
         <View style={styles.container}>
           <View>
-            {/* <Image
+          <Image
+              style={styles.logoinpi}
+              source={require('../../assets/images/logo_azul168x55.png')}
+            />
+            <Title style={styles.titulo}>Acesse sua conta com</Title>
+            <Image
               style={styles.logo}
-              source={require('../../assets/images/linker-plus-white.png')}
-            /> */}
-            <Title style={styles.titulo}>Faça seu Login</Title>
-            <Text style={styles.label}>CNPJ</Text>
+              source={require('../../assets/images/sua_conta230x194.png')}
+            />
+            <Title style={styles.titulo}>Número do CPF</Title>
+            <Text style={styles.label}>CPF</Text>
             <TextInput
               style={styles.input}
               keyboardType="default"
               value={props.values.cnpj}
-              onChangeText={(text) => props.setFieldValue('cnpj', text)}
+              onChangeText={text => props.setFieldValue('cnpj', text)}
             />
-            <Text style={styles.label}>Senha:</Text>
+            {/* <Text style={styles.label}>Senha:</Text>
             <TextInput
               keyboardType="visible-password"
               style={styles.input}
               value={props.values.senha}
-              onChangeText={(text) => props.setFieldValue('senha', text)}
-            />
+              onChangeText={text => props.setFieldValue('senha', text)}
+            /> */}
             <Text style={styles.avisoSenha}>Esqueceu sua senha?</Text>
             <RectButton
               style={styles.button}
               // onPress={props.handleSubmit}>
-               onPress={() => handleNavigateToHome()}>
-              <Text style={styles.buttonText}>Continuar</Text>
+              onPress={() => handleNavigateToHome()}>
+              <Text style={styles.buttonText}>Avançar</Text>
             </RectButton>
             <View style={styles.criarConta}>
               <TouchableOpacity onPress={() => handleNavigateToNewAccount()}>
-                <Text style={{fontSize: 16, color: '#FFEEE5'}}>
+                <Text style={{fontSize: 16, color: '#155BCB'}}>
                   Novo ?
-                  <Text style={{color: '#FE6C6D', fontSize: 16,marginLeft:2}}>
+                  <Text style={{color: '#FE6C6D', fontSize: 16, marginLeft: 2}}>
                     Crie uma conta agora
                   </Text>
                 </Text>
@@ -79,18 +83,18 @@ const styles = StyleSheet.create({
   },
   titulo: {
     fontSize: 16,
-    color: '#fff',
+    color: '#155BCB',
     marginBottom: 20,
     fontWeight: 'bold',
   },
   input: {
-    color: '#fff',
+    color: '#155BCB',
     borderBottomWidth: 1,
     borderColor: '#fff',
   },
   label: {
     fontSize: 16,
-    color: '#fff',
+    color: '#155BCB',
     fontWeight: 'bold',
   },
   criarConta: {
@@ -99,21 +103,29 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   logo: {
-    width: 310,
-    height: 120,
+    width: 230,
+    height: 194,
     alignSelf: 'center',
-    marginLeft: 65,
-    marginBottom: 100,
+    marginBottom: 40,
+  },
+  logoinpi: {
+    width: 168,
+    height: 55,
+    alignSelf: 'center',
+    marginBottom: 40,
   },
   avisoSenha: {fontSize: 16, color: '#FFEEE5', marginBottom: 10},
   submit: {},
   button: {
-    backgroundColor: '#FE6C6D',
-    height: 60,
+    backgroundColor: '#155BCB',
+    height: 50,
+    width:164,
     flexDirection: 'row',
-    borderRadius: 10,
+    borderRadius: 30,
     overflow: 'hidden',
+    justifyContent:'flex-end',
     alignItems: 'center',
+    
     marginTop: 8,
   },
 
@@ -137,7 +149,7 @@ const styles = StyleSheet.create({
 export default withFormik({
   mapPropsToValues: () => ({cnpj: '', senha: ''}),
 
-  handleSubmit: (values) => {
+  handleSubmit: values => {
     // navigation.navigate('Home');
     console.log(values);
   },
