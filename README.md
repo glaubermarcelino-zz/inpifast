@@ -22,6 +22,10 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/glaubermarcelino/inpifast">
   </a>
 </p>
+
+<p align="center"> <img src="https://github.com/glaubermarcelino/inpifast/blob/main/screens/INPI-HACKATON.gif?raw=true" alt="Inpi Fast" /> </p>
+
+
 <p>Screens App Mobile</p>
 
 ### Spash : 
@@ -50,7 +54,7 @@
 ## Dependências
 * dotnet runtime (Microsoft .net que roda em linux)
 
-<p align="center"> <img src="https://github.com/glaubermarcelino/inpifast/blob/main/src/inpifast-App.gif?raw=true" alt="Inpi Fast" /> </p>
+
 
 
 ### `Clone this project`
