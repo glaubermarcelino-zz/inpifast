@@ -22,11 +22,30 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/glaubermarcelino/inpifast">
   </a>
 </p>
-<p>Linguagens utilizadas</p>
-###C# .net Core para API
-###React Native(Javascript) para a aplicação mobile
+<p>Screens App Mobile</p>
+### Spash : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Spash.png)
+### Login : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Login.png)
 
-##Dependências
+### Home : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Home.png)
+
+### Novo Pedido : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Novo_Pedido.png)
+
+### Histórico : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Historico.png)
+
+### Pagamento : 
+![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Pagamento.png)
+
+
+<p>Linguagens utilizadas</p>
+### C# .net Core para API
+### React Native(Javascript) para a aplicação mobile
+
+## Dependências
 * dotnet runtime (Microsoft .net que roda em linux)
 
 <p align="center"> <img src="https://github.com/glaubermarcelino/inpifast/blob/main/src/inpifast-App.gif?raw=true" alt="Inpi Fast" /> </p>
