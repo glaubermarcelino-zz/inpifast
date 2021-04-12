@@ -23,22 +23,24 @@
   </a>
 </p>
 <p>Screens App Mobile</p>
+
 ### Spash : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Spash.png)
+![Splash](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Splash.png)
+
 ### Login : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Login.png)
+![Login](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Login.png)
 
 ### Home : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Home.png)
+![Home](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Home.png)
 
 ### Novo Pedido : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Novo_Pedido.png)
+![Novo Pedido](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Novo_Pedido.png)
 
 ### Histórico : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Historico.png)
+![Historico](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Historico.png)
 
 ### Pagamento : 
-![Screen Task Main Window](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Pagamento.png)
+![Pagamento](https://github.com/glaubermarcelino/inpifast/blob/main/screens/Pagamento.png)
 
 
 <p>Linguagens utilizadas</p>
